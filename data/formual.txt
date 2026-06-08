@@ -1,3 +1,11 @@
 OGM = (daily liability) * no of days / no of periods
 
 daily liability rounded off 2 decimal places
+
+OGM Stands for Ongoing maintanence charge
+Daily liability is nothing but the amount that NRP is liable to pay every day for this current effective financial year
+no of days is days from effective date of the service request calculation happened  till annual review date of the financial cycle
+no of periods is nothing but periods left till annual review date either monthly or weekly ( opted by the NRP) 
+these details are found in the calculation applet
+
+Total OGM needs to be rounded off to 2 decimal points
