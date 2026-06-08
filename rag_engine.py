@@ -74,6 +74,7 @@ def evaluate_expressions(text):
 
 def initialize_vector_store(data_path="data/"):
     """Loads documents, creates embeddings, and builds a local FAISS vector store."""
+    print("Path:", os.path.abspath(data_path))
     if not os.path.exists(data_path) or not os.listdir(data_path):
         return None
 
